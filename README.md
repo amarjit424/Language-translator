@@ -1,2 +1,2 @@
-# Language-translator
-It translate the english data into indian languages like hindi,marathi
+# Language Translator
+It is a language translator app which translate english into other indian languages

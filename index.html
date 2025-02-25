@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Language Translator</title>
+    <link rel="stylesheet" href="language-translator.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="first1">Language Translator</h1>
+        <h2>Translate English to Other Language</h2>
+        <textarea name="englishdata" id="englishdata" class="englishdata" placeholder="English Date Here......"></textarea>
+        <textarea name="hindidata" id="hindidata" class="hindidata" placeholder="Hindi Data Here......"></textarea>
+        <select name="language" id="language" class="language">
+            <option value=" ">--Choose--</option>
+            <option value="en">English</option>
+            <option value="hi">Hindi</option>
+            <option value="gu">Gujarati</option>
+            <option value="mr">Marathi</option>
+            <option value="ta">Tamil</option>
+            <option value="te">Telugu</option>
+            <option value="kn">Kannada</option>
+            <option value="ml">Malayalam</option>
+            <option value="pa">Punjabi</option>
+            <option value="bn">Bengali</option>
+            <option value="ur">Urdu</option>
+            <option value="or">Oriya</option>
+            <option value="as">Assamese</option>
+            <option value="ma">Manipuri</option>
+            <option value="sa">Sanskrit</option>
+            <option value="ne">Nepali</option>
+            <option value="sd">Sindhi</option>
+            <option value="ks">Kashmiri</option>
+        </select>
+        <button id="translatebtn">Translate</button>
+        <button id="copy">Copy Translated Text</button>
+    </div>
+    <script src="jquery.min.js"></script>
+    <script src="language-translator.js"></script>
+</body>
+</html>

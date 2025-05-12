@@ -18,6 +18,7 @@ document.addEventListener('DOMContentLoaded', function() {
             let data = await res.json();
             if (!res.ok) {
                 throw new Error('Network response was not ok');
+                alert('error to translate')
             }
             let translateddata = data[0][0][0];
             let hindidata = document.getElementById('hindidata');

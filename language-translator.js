@@ -11,7 +11,10 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     let translate = async() => {
-        try{
+        if(!englishdata){
+            alert('fill english box')
+        } else {
+                    try{
             let language = document.getElementById('language');
             let url = `https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=${language.value}&dt=t&q=${englishdata.value}`;
             let res = await fetch(url);
@@ -25,6 +28,7 @@ document.addEventListener('DOMContentLoaded', function() {
             hindidata.value = translateddata;
         } catch(err) {
             console.log('Sorry Disable To Get The Data');
+        }
         }
     }
 

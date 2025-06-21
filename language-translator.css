@@ -49,7 +49,7 @@ select:focus {
     outline: 1px solid #007bff;
 }
 
-.container>button {
+button {
     width: 220px;
     height: 50px;
     border: none;
@@ -62,7 +62,7 @@ select:focus {
     border-radius: 10px;
 }
 
-.container>button::before {
+button::before {
     content: '';
     background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
     position: absolute;
@@ -79,19 +79,19 @@ select:focus {
     border-radius: 10px;
 }
 
-.container>button:active {
+button:active {
     color: #000
 }
 
-.container>button:active:after {
+button:active:after {
     background: transparent;
 }
 
-.container>button:hover:before {
+button:hover:before {
     opacity: 1;
 }
 
-.container>button:after {
+button:after {
     z-index: -1;
     content: '';
     position: absolute;
@@ -125,7 +125,7 @@ select:focus {
         font-size: large;
     }
 
-    .container>button {
+    button {
         width: 180px;
         height: 45px;
     }
@@ -145,7 +145,7 @@ select:focus {
         font-size: medium;
     }
 
-    .container>button {
+    button {
         width: 150px;
         height: 40px;
     }
